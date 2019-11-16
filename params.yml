@@ -1,0 +1,20 @@
+quorum: "Ip Addreses , separated"
+port: "2181"
+rowKey: id
+rowValues  :
+    - qualifier   : Dynamic Data:Position
+      value       : latitude:longitude
+    - qualifier   : Dynamic Data:c
+      value       : course
+    - qualifier   : Dynamic Data:s
+      value       : speed
+    - qualifier   : Static Data:M
+      value       : trackId
+    - qualifier   : Static Data:Type
+      value       : trackType
+    - qualifier   : Semi Static Data:E
+      value       : null
+    - qualifier   : Semi Static Data:S
+      value       : null
+    - qualifier   : Semi Static Data:D
+      value       : null
